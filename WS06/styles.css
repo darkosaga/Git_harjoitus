@@ -1,66 +1,66 @@
-  body, h1, h2, p, ul {
+  body, h1, h2, p, ul { /*yhdistetty muotoilu*/
     margin: 0;
     padding: 0;
   }
   
-  body, figcaption {
+  body, figcaption { /*yhdistetty muotoilu*/
     font-family: Arial, sans-serif;
     line-height: 1.6;
   }
   
-  header {
+  header { /*yläosa*/
     background-color: black;
     padding: 20px;
   }
 
-  .header-content {
+  .header-content { /*yläosan teksti keskelle*/
     text-align: center; /*Miksi ei toimi? KORJAUS, TOIMII.*/
   }
 
-  header h1 {
+  header h1 { /*eka otsikko*/
     color: white;
   }
   
-  .main-nav ul li {
+  .main-nav ul li { /*ylävalikkoa*/
     display: inline;
   }
   
-  .main-nav ul li a {
+  .main-nav ul li a { /*ylävalikko*/
     text-decoration: none;
     color: whitesmoke
   }
   
-  .main-nav ul li a:hover {
+  .main-nav ul li a:hover { /*ylävalikon väri kun kursori päällä*/
     color: red;
   }
   
-  .vertical-nav {
+  .vertical-nav { /*sivuvalikko*/
     float: left;
     width: 200px;
     background-color: lightgray;
     padding: 20px;
   }
   
-  .vertical-nav ul {
+  .vertical-nav ul { /*listaus*/
     list-style-type: none;
   }
   
-  .vertical-nav ul li {
+  .vertical-nav ul li { /*listan tila*/
     margin-bottom: 10px;
   }
   
-  .content {
+  .content { /*leipätekstin muotoilut*/
     margin-left: 240px;
     padding: 20px;
     display: flex;
   }
   
-  .column {
+  .column { /*Kolumnit 50/50-kokoon*/
     width: 50%;
     padding: 0 20px;
   }
 
-  img {
+  img { /*kuvarajat*/
     width: 300px;
     border: 15px solid black;
     padding: 50px;
@@ -68,11 +68,11 @@
     align-items: left;
   }
 
-  figcaption {
+  figcaption { /*kuvateksti*/
     color: grey;
   }
 
-  footer {
+  footer { /*alaosa*/
     background-color: black;
     color: whitesmoke;
     padding: 20px;
