@@ -1,30 +1,80 @@
-body {
-    background-color: lightcyan;
-    color: black;
+  body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
   }
   
-  h1 {
-    color: black;
-    font-size: 20px;
-    border: 5px solid whitesmoke;
+  body, figcaption {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
   }
   
-  p {
-    color: grey;
-    font-size: 12px;
-    border-radius: 15px;
-    background-color: aliceblue;
+  header {
+    background-color: black;
+    padding: 20px;
+  }
+
+  .header-content {
+    text-align: center; /*Miksi ei toimi? KORJAUS, TOIMII.*/
+  }
+
+  header h1 {
+    color: white;
+  }
+  
+  .main-nav ul li {
+    display: inline;
+  }
+  
+  .main-nav ul li a {
+    text-decoration: none;
+    color: whitesmoke
+  }
+  
+  .main-nav ul li a:hover {
+    color: red;
+  }
+  
+  .vertical-nav {
+    float: left;
+    width: 200px;
+    background-color: lightgray;
+    padding: 20px;
+  }
+  
+  .vertical-nav ul {
+    list-style-type: none;
+  }
+  
+  .vertical-nav ul li {
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    margin-left: 240px;
+    padding: 20px;
+    display: flex;
+  }
+  
+  .column {
+    width: 50%;
+    padding: 0 20px;
   }
 
   img {
-    float: right;
     width: 300px;
-    border: 15px solid green;
+    border: 15px solid black;
     padding: 50px;
     margin: 20px;
+    align-items: left;
   }
 
   figcaption {
     color: grey;
-    font-size: 12px;
+  }
+
+  footer {
+    background-color: black;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
   }

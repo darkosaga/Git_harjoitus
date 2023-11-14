@@ -1,0 +1,111 @@
+body, h1, h2, p, ul { /*yhdistetty muotoilu*/
+    margin: 0;
+    padding: 0;
+  }
+  
+  body, figcaption { /*yhdistetty muotoilu*/
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header { /*yläosa*/
+    background-color: black;
+    padding: 20px;
+  }
+
+  .header-content { /*yläosan teksti keskelle*/
+    text-align: center;
+  }
+
+  header h1 { /*eka otsikko*/
+    color: white;
+  }
+  
+  .main-nav ul li { /*ylävalikkoa*/
+    display: inline;
+  }
+  
+  .main-nav ul li a { /*ylävalikko*/
+    text-decoration: none;
+    color: whitesmoke
+  }
+  
+  .main-nav ul li a:hover { /*ylävalikon väri kun kursori päällä, alla muut värit*/
+    color: yellow;
+  }
+
+  a:link {
+    color: black;
+    background-color: transparent;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  
+  .vertical-nav { /*sivuvalikko*/
+    float: left;
+    width: 200px;
+    background-color: lightgray;
+    padding: 20px;
+  }
+  
+  .vertical-nav ul { /*listaus*/
+    list-style-type: none;
+  }
+  
+  .vertical-nav ul li { /*listan tila*/
+    margin-bottom: 10px;
+  }
+  
+  .content { /*leipätekstin muotoilut*/
+    margin-left: 240px;
+    padding: 20px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+  }
+
+  .content img { /*etusivun oma kuva*/
+    width: 300px;
+  }
+  
+  .column {
+    width: 50%; /*Kolumnit 50/50-kokoon*/
+    padding: 0 20px;
+  }
+
+  .column2 img { /*toka omakuva contact-sivulla*/
+    width: 200px;
+    border: 4px yellow; /*ei toimi?*/
+    margin-top: 8px;
+  }
+
+  figcaption { /*vanha aiemmista sivuista*/
+    color: grey;
+  }
+
+  footer { /*alaosa*/
+    background-color: black;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+  }
+
+  ul { /*lista cv-sivulla*/
+    list-style-type: square;
+  }
+
+  .class { /*ekalla sivulla muotoilu*/
+    border-style: dotted;
+    border-width: 2px;
+  }
